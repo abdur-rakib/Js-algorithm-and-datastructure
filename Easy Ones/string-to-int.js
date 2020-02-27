@@ -11,3 +11,5 @@ var num = 20;
 console.log(typeof str);
 
 
+var str = '42px';
+console.log(parseInt(str, 10));
