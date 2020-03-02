@@ -3,7 +3,7 @@ function isPrime(num) {
         return false;
     }
     else  {
-        for(var i = 2; i<= Math.ceil(num/2); i++) {
+        for(var i = 2; i<= Math.ceil(Math.sqrt(num)); i++) {
             if (num % i == 0){
                 return false;
             }
@@ -13,4 +13,4 @@ function isPrime(num) {
 
 }
 
-console.log(isPrime(3));
+console.log(isPrime(979));
